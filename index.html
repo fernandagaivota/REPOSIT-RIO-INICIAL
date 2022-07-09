@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Mania</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css"> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg background-white">
+        <div class="container-fluid"> 
+                <a class="navbar-brand" href="#">
+                <img src="images/Sem título 4.png" alt="" width="60" height="48">
+                </a>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item menuitem">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item menuitem">
+                <a class="nav-link active" aria-current="page" href="#">Desktop</a>
+              </li>
+              <li class="nav-item menuitem"> 
+                <a class="nav-link active" aria-current="page" href="#">Games</a>
+              </li>
+              <li class="nav-item menuitem">
+                <a class="nav-link active" aria-current="page" href="#">Sobre nós</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="&#xF002; Search" style="font-family:Arial, FontAwesome" aria-label="Busca">
+              </form>
+        </div>
+      </nav>
+
+      <!-- carrossel -->
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/Sem título 3.png" class="d-block carousel-image"alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/Sem título.png" class="d-block carousel-image" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/Sem título 2.png" class="d-block carousel-image" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="container highlight">
+        <div class="row">
+          <div class="col-6">
+            <img src="images/Sem título 5.png" class= "highlight-image" alt=""> 
+          </div>
+          <div class="col-6 highlight-text">
+            <p>
+                Lorem ipsum pretium torquent lectus leo nostra 
+                pellentesque curabitur aenean non, torquent 
+                praesent egestas ligula fringilla lobortis aenean 
+                vel malesuada turpis, sed at quisque nostra 
+            </p>
+          </div>
+        </div>
+      </div>
+    <div class="container">
+        <div class="row">
+          <div class="col-2">
+            <div class="galery-initial-arrow">
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-arrow-left galery-arrow" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+                  </svg>
+            </div>
+          </div>
+          <div class="col-2">
+            <img src="images/Sem título 9.png" class="galery-image" alt=""> 
+          </div>
+          <div class="col-2">
+            <img src="images/Sem título 10.png" class="galery-image"alt=""> 
+          </div>
+          <div class="col-2">
+            <img src="images/Sem título 11.png" class="galery-image"alt=""> 
+          </div>
+          <div class="col-2">
+            <img src="images/Sem título 12.png" class="galery-image"alt=""> 
+          </div>
+          <div class="col-2">
+            <div class="galery-final-arrow">
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-arrow-right galery-arrow" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                  </svg> 
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container highlight-2">
+        <div class="row">
+          <div class="col-6">
+            <img src="images/Sem título 8.png" class="highlight-image-2" alt=""> 
+          </div>
+          <div class="col-6 highlight-text-2">
+            <p>
+                Lorem ipsum pretium torquent lectus leo nostra 
+                pellentesque curabitur aenean non, torquent 
+                praesent egestas ligula fringilla lobortis aenean 
+                vel malesuada turpis, sed at quisque nostra 
+            </p>
+          </div>
+        </div>
+      </div>
+  <footer>
+    <div class="container footer">
+        <div class="row">
+          <div class="col-6">
+            <div class="footer-text">
+                <p>
+                    Lorem ipsum pretium torquent lectus leo nostra 
+                    pellentesque curabitur aenean non, torquent 
+                    praesent egestas ligula fringilla lobortis aenean 
+                    vel malesuada turpis, sed at quisque nostra 
+                </p>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="footer-contact">
+                <div class="footer-contact-whats">
+                    <img src="images/Sem título 6.png" class="footer-image"alt=""> 
+                    <p>
+                        9999-9999
+                    </p>
+                </div>
+                <div class="footer-contact-email">
+                    <img src="images/email.png" class="footer-image" alt=""> 
+                    <p>
+                    gamemania@gmail.com
+                    </p>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </footer>
+
+</body>
+</html>
